@@ -9,7 +9,7 @@ import imagen from './imagenes/imagen-causas-laborales.jpg'
 import imagen2 from './imagenes/imagen-causas-civiles.jpg'
 import imagen3 from './imagenes/imagen-causas-de-familia.jpg'
 import imagen4 from './imagenes/imagen-causas-penales.jpg'
-import ContactForm from './components/ContactForm'
+import ContactComponent from './components/ContactComponent'
 import { BrowserRouter as Router } from 'react-router-dom'
 import NavBarraRoute from './components/NavBarra'
 
@@ -139,7 +139,7 @@ function App () {
           </div>
           <br />
           <div style={{ dflex: '0 0 50%', display: 'flex', justifyContent: 'center' , textAlign:'center'}}>
-             <ContactComponent />
+            <ContactComponent />
           </div>
         </div>
       </div>
